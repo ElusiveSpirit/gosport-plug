@@ -1,0 +1,56 @@
+# site settings
+title: GoSport
+subtitle: Online
+email: info@gosport.online
+lang: ru_RU
+name: GOSPORT - молодёжное общественное движение
+description: Мы - молодёжное общественное движение, объединяющее жителей нашей страны. Миссия нашего движения – дать молодым и активным ребятам возможность реализовать свои проекты на благо нашей родины.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gosport.online" # the base hostname & protocol for your site
+author:
+street_address: Большой Ржевский переулок, 5
+city: Москва
+state:
+zip_code: 121069
+country: Российская Федерация
+phone:
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+permalink: pretty
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+vk_url: https://vk.com/gosport
+gitlab_url:
+instagram_url: https://instagram.com/gosportonline/
+youtube_url: https://youtube.com/c/GoSportRussia
+slack_url:
+twitter_url:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+# SEO
+webmaster_verifications:
+  google: true
+  bing:
+  alexa:
+  yandex:
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - package.json
+  - package-lock.json
+  - node_modules
+  - gulpfile.js
